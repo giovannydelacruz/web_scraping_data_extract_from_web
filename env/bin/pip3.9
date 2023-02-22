@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' "/Users/giovannydelacruz/Library/CloudStorage/GoogleDrive-giovannydelacruz10@gmail.com/Mi unidad/Programación y Certificaciones/En Proceso/Platzi/DS e IA/02. Perfiles profesionales/Data Engineer/24. Web Scraping - Extracción de Datos en la web/proyectos/env/bin/python3" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from pip._internal.cli.main import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
